@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intel Sustainability Operations Timeline</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#timeline">Skip to timeline</a>
+
+  <header class="hero" aria-labelledby="page-title">
+    <div class="ambient-lines" aria-hidden="true">
+      <svg viewBox="0 0 1200 520" preserveAspectRatio="none">
+        <path d="M-40 430 C 210 330, 330 510, 560 345 S 950 95, 1260 210" />
+        <path d="M-30 270 C 150 120, 340 160, 520 220 S 880 400, 1240 90" />
+        <path d="M120 560 C 250 410, 450 460, 610 320 S 900 130, 1180 330" />
+      </svg>
+    </div>
+
+    <nav class="topbar" aria-label="Project navigation">
+      <div class="brand" aria-label="Intel wordmark">intel<span>.</span></div>
+      <a href="#sources" class="source-link">Sources</a>
+    </nav>
+
+    <section class="hero-layout">
+      <div class="hero-copy-block">
+        <p class="eyebrow">Clean Energy Control Room</p>
+        <h1 id="page-title">Sustainability<br />Operations Timeline</h1>
+        <p class="hero-copy">
+          Tracking Intel's path from semiconductor innovation to responsible operations, renewable energy,
+          water stewardship, waste reduction, and net-zero goals.
+        </p>
+        <div class="hero-tags" aria-label="Project themes">
+          <span>Renewable Energy</span>
+          <span>Water Positive</span>
+          <span>Zero Waste</span>
+          <span>Net-Zero 2040</span>
+        </div>
+      </div>
+
+      <aside class="status-panel" aria-label="Timeline status summary">
+        <div class="panel-header">
+          <span class="signal-dot"></span>
+          <span>Roadmap Monitor</span>
+        </div>
+        <div class="status-year">1968 → 2040</div>
+        <p>Innovation milestones are displayed as operational data nodes, built for desktop scrolling and mobile reading.</p>
+        <div class="mini-metrics" aria-label="Project features">
+          <div><strong>08</strong><span>milestones</span></div>
+          <div><strong>100%</strong><span>custom SVGs</span></div>
+          <div><strong>RWD</strong><span>Flexbox</span></div>
+        </div>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="design-title">
+      <div class="section-label">Design Concept</div>
+      <h2 id="design-title">A sustainability dashboard instead of a poster.</h2>
+      <p>
+        This version keeps a clean, minimal structure but moves away from paper-like or portfolio-style design. The interface
+        uses dark control-room panels, energy-flow lines, Intel-blue accents, and small green sustainability signals to make the
+        timeline feel like a live operations display.
+      </p>
+    </section>
+
+    <section class="timeline-section" aria-labelledby="timeline-title">
+      <div class="timeline-heading">
+        <div>
+          <div class="section-label">Interactive Timeline</div>
+          <h2 id="timeline-title">From chips to measurable climate goals</h2>
+        </div>
+        <p class="hint">Scroll horizontally on desktop. Hover or focus on each node to reveal additional details.</p>
+      </div>
+
+      <div id="timeline" class="timeline" role="list">
+        <article class="milestone-card" role="listitem" tabindex="0">
+          <div class="node-marker" aria-hidden="true"></div>
+          <div class="card-meta"><span>Foundation</span><span>Node 01</span></div>
+          <img src="assets/1968-founded.svg" alt="Dark control-room style illustration of an early semiconductor lab" />
+          <p class="year">1968</p>
+          <h3>Intel Founded</h3>
+          <p class="summary">Intel begins as a semiconductor company focused on memory and integrated circuits.</p>
+          <p class="details">This starting point frames the timeline: smaller and faster chips eventually connect technical progress with operational responsibility.</p>
+        </article>
+
+        <article class="milestone-card" role="listitem" tabindex="0">
+          <div class="node-marker" aria-hidden="true"></div>
+          <div class="card-meta"><span>Compute</span><span>Node 02</span></div>
+          <img src="assets/1971-microprocessor.svg" alt="Dark dashboard illustration of a microprocessor core and circuit signal paths" />
+          <p class="year">1971</p>
+          <h3>First Microprocessor</h3>
+          <p class="summary">The Intel 4004 helps launch the microprocessor era.</p>
+          <p class="details">More computing power moved into smaller forms, creating a long-term design challenge: improving performance while managing energy demand.</p>
+        </article>
+
+        <article class="milestone-card" role="listitem" tabindex="0">
+          <div class="node-marker" aria-hidden="true"></div>
+          <div class="card-meta"><span>Scale</span><span>Node 03</span></div>
+          <img src="assets/1978-processor.svg" alt="Dark module illustration of an 8086 style chip expanding into a computing network" />
+          <p class="year">1978</p>
+          <h3>8086 Processor</h3>
+          <p class="summary">The 8086 processor becomes a key milestone in personal computing history.</p>
+          <p class="details">As computing scaled toward everyday use, the environmental impact of manufacturing, electricity, water, and waste became more important.</p>
+        </article>
+
+        <article class="milestone-card" role="listitem" tabindex="0">
+          <div class="node-marker" aria-hidden="true"></div>
+          <div class="card-meta"><span>RISE</span><span>Node 04</span></div>
+          <img src="assets/2020-rise.svg" alt="Dark dashboard showing responsibility, inclusion, and sustainability modules" />
+          <p class="year">2020</p>
+          <h3>RISE 2030 Strategy</h3>
+          <p class="summary">Intel introduces its RISE strategy and 2030 goals.</p>
+          <p class="details">RISE connects responsibility, inclusion, and sustainability, turning corporate responsibility into measurable long-term targets.</p>
+        </article>
+
+        <article class="milestone-card" role="listitem" tabindex="0">
+          <div class="node-marker" aria-hidden="true"></div>
+          <div class="card-meta"><span>Climate</span><span>Node 05</span></div>
+          <img src="assets/2022-net-zero.svg" alt="Dark clean-energy factory illustration with net-zero signal loops" />
+          <p class="year">2022</p>
+          <h3>Net-Zero Roadmap</h3>
+          <p class="summary">Intel commits to net-zero Scope 1 and 2 greenhouse gas emissions by 2040.</p>
+          <p class="details">The plan emphasizes direct emissions reduction first, supported by renewable electricity, energy conservation, and lower-carbon operations.</p>
+        </article>
+
+        <article class="milestone-card" role="listitem" tabindex="0">
+          <div class="node-marker" aria-hidden="true"></div>
+          <div class="card-meta"><span>Energy</span><span>Node 06</span></div>
+          <img src="assets/2025-renewable.svg" alt="Dark solar and chip energy meter illustration showing renewable electricity progress" />
+          <p class="year">2025</p>
+          <h3>Renewable Progress</h3>
+          <p class="summary">Intel reports 99% global renewable electricity progress in 2025.</p>
+          <p class="details">This milestone shows sustainability as an operational metric that can be tracked through energy sourcing, facilities, and regional progress.</p>
+        </article>
+
+        <article class="milestone-card" role="listitem" tabindex="0">
+          <div class="node-marker" aria-hidden="true"></div>
+          <div class="card-meta"><span>2030 Targets</span><span>Node 07</span></div>
+          <img src="assets/2030-goals.svg" alt="Dark operations dashboard with energy, water, and waste target indicators" />
+          <p class="year">2030</p>
+          <h3>Operational Goals</h3>
+          <p class="summary">Intel aims for 100% renewable electricity, net positive water, and zero waste to landfill.</p>
+          <p class="details">The 2030 targets connect environmental responsibility to measurable outcomes across energy, water stewardship, and circular manufacturing.</p>
+        </article>
+
+        <article class="milestone-card" role="listitem" tabindex="0">
+          <div class="node-marker" aria-hidden="true"></div>
+          <div class="card-meta"><span>Future State</span><span>Node 08</span></div>
+          <img src="assets/2040-future.svg" alt="Dark future fab illustration connected to a clean-energy loop and net-zero marker" />
+          <p class="year">2040</p>
+          <h3>Net-Zero Operations</h3>
+          <p class="summary">Intel targets net-zero Scope 1 and 2 greenhouse gas emissions across global operations.</p>
+          <p class="details">The final node turns the timeline toward accountability: innovation is strongest when performance, scale, and environmental impact improve together.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="takeaway" aria-labelledby="takeaway-title">
+      <div class="section-label">Design Takeaway</div>
+      <h2 id="takeaway-title">Sustainability becomes clearer when progress is treated like data.</h2>
+      <p>
+        By presenting milestones as dashboard nodes, the page highlights that Intel's sustainability story is not only historical. It is also measurable, operational, and future-facing.
+      </p>
+    </section>
+  </main>
+
+  <footer id="sources" class="sources" aria-labelledby="sources-title">
+    <h2 id="sources-title">Sources</h2>
+    <ul>
+      <li><a href="https://www.intel.com/content/www/us/en/environment/intel-and-the-environment.html" target="_blank" rel="noopener">Intel and the Environment</a></li>
+      <li><a href="https://www.intc.com/news-events/press-releases/detail/1539/intel-commits-to-net-zero-greenhouse-gas-emissions-in-its" target="_blank" rel="noopener">Intel Net-Zero 2040 Press Release</a></li>
+      <li><a href="https://www.intel.com/content/www/us/en/foundry/manufacturing/sustainability.html" target="_blank" rel="noopener">Intel Foundry Manufacturing Sustainability</a></li>
+    </ul>
+    <p class="credit">Student responsive web project built with HTML, CSS, Flexbox, hover interactions, scroll snap, and custom SVG visuals.</p>
+  </footer>
+</body>
+</html>
