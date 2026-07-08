@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0d1a2e"/>
+      <stop offset="1" stop-color="#04070d"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1">
+      <stop offset="0" stop-color="#00a3ff"/>
+      <stop offset="1" stop-color="#66f2b1"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .panel{fill:url(#bg);stroke:rgba(255,255,255,.18);stroke-width:2}.line{fill:none;stroke:url(#blue);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:rgba(255,255,255,.26);stroke-width:2;stroke-linecap:round}.soft{fill:rgba(255,255,255,.07);stroke:rgba(255,255,255,.18);stroke-width:2}.dot{fill:#66f2b1;filter:url(#glow)}.bluefill{fill:#00a3ff}.greenfill{fill:#66f2b1}.text{font:700 30px system-ui,Segoe UI,sans-serif;fill:rgba(255,255,255,.78);letter-spacing:2px}.num{font:900 62px system-ui,Segoe UI,sans-serif;fill:#00a3ff;letter-spacing:-4px}
+    </style>
+  </defs>
+<rect class="panel" x="8" y="8" width="624" height="424" rx="34"/>
+  <path class="soft" d="M116 152h255l82 82v86H116z"/>
+  <path class="line" d="M152 198h150c58 0 89 72 150 72h55"/>
+  <path class="thin" d="M160 244h60m36 0h80m-176 38h220m-216-122h126m34 0h60"/>
+  <rect x="418" y="126" width="98" height="98" rx="18" fill="rgba(102,242,177,.12)" stroke="#66f2b1" stroke-width="3"/>
+  <path class="thin" d="M440 174h54M467 147v54"/>
+  <circle class="dot" cx="152" cy="198" r="7"/><circle class="dot" cx="508" cy="270" r="7"/>
+  <text class="num" x="70" y="92">1978</text><text class="text" x="75" y="126">COMPUTE SCALE</text>
+</svg>
